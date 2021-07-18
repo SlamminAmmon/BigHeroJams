@@ -7,6 +7,6 @@ public class WinUIController : MonoBehaviour
 {
     public void Restart()
     {
-        SceneManager.LoadScene("Template2");
+        SceneManager.LoadScene("Template");
     }
 }

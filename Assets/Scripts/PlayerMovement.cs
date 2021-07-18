@@ -18,16 +18,18 @@ public class PlayerMovement : MonoBehaviour
     private int jCount = 0;
     private float initialG = 0;
 
+    private float movementX;
+    [SerializeField]
+    private float moveForce = 5f;
+
+
+
     private void Awake() {
         //Get the rigidbody of player
         player = GetComponent<Rigidbody2D>();
 
         playerCollider = GetComponent<BoxCollider2D>();
         initialG = gravity;
-
-
-
-
     }
 
     private void Update() {
@@ -35,8 +37,9 @@ public class PlayerMovement : MonoBehaviour
         //Int that stors the the horizantal input
         //*******Unused in current itteration*******
         float horizontalInput = Input.GetAxis("Horizontal");
-        player.velocity = new Vector2(speed, player.velocity.y);
-    
+        // player.velocity = new Vector2(speed, player.velocity.y);
+
+        MovePlayer();
 
         //flips the player sprite to appear backward
         //*******Unused in current itteration*******
@@ -64,7 +67,6 @@ public class PlayerMovement : MonoBehaviour
             downCount=1;
             //gravity=gravity * 2;
         }
-
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -126,9 +128,12 @@ public class PlayerMovement : MonoBehaviour
             //Death
             SceneManager.LoadScene("Win");
         }
+    }
 
-
-
+    void MovePlayer()
+    {
+        movementX = Input.GetAxis("Horizontal");
+        transform.position += new Vector3(movementX, 0f, 0f) * Time.deltaTime * speed;
     }
 
     private IEnumerator Fall() {
@@ -142,7 +147,6 @@ public class PlayerMovement : MonoBehaviour
 
 
         //playerCollider.isTrigger = false;
-
     }
 
 
