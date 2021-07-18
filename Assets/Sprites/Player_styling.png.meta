@@ -1,0 +1,467 @@
+fileFormatVersion: 2
+guid: 69b8f5954124a0140a1de84cac6146f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1990883692964799653
+    second: Player_styling_0
+  - first:
+      213: 8539877624530610578
+    second: Player_styling_1
+  - first:
+      213: -1617925176611883544
+    second: Player_styling_2
+  - first:
+      213: 8395322373985749632
+    second: Player_styling_3
+  - first:
+      213: 956686449133692162
+    second: Player_styling_4
+  - first:
+      213: -7180758223076891576
+    second: Player_styling_5
+  - first:
+      213: -6835962505964267158
+    second: Player_styling_6
+  - first:
+      213: 4745718130877648840
+    second: Player_styling_7
+  - first:
+      213: 7379335845402027413
+    second: Player_styling_8
+  - first:
+      213: -7651270462578721079
+    second: Player_styling_9
+  - first:
+      213: -9099182418241590032
+    second: Player_styling_10
+  - first:
+      213: 4491080174471804565
+    second: Player_styling_11
+  - first:
+      213: 6145400726027416489
+    second: Player_styling_12
+  - first:
+      213: 2582961829359197673
+    second: Player_styling_13
+  - first:
+      213: 914276767485944111
+    second: Player_styling_14
+  - first:
+      213: -2783997976349865096
+    second: Player_styling_15
+  - first:
+      213: 7646526429841862436
+    second: Player_styling_16
+  - first:
+      213: 168765113702519055
+    second: Player_styling_17
+  - first:
+      213: -1141290963635664730
+    second: Player_styling_18
+  - first:
+      213: 7380407465471208766
+    second: Player_styling_19
+  - first:
+      213: -9122563241072378609
+    second: Player_styling_20
+  - first:
+      213: 4941359304035515420
+    second: Player_styling_21
+  - first:
+      213: 6498293508716629503
+    second: Player_styling_22
+  - first:
+      213: 1115693787058529731
+    second: Player_styling_23
+  - first:
+      213: -6800958215513680812
+    second: Player_styling_24
+  - first:
+      213: -917828609973754610
+    second: Player_styling_25
+  - first:
+      213: 556130729807233128
+    second: Player_styling_26
+  - first:
+      213: 5951526099921400760
+    second: Player_styling_27
+  - first:
+      213: -7366134050275274477
+    second: Player_styling_28
+  - first:
+      213: -140876924684821539
+    second: Player_styling_29
+  - first:
+      213: -2016742340148682800
+    second: Player_styling_30
+  - first:
+      213: 5592143514716350678
+    second: Player_styling_31
+  - first:
+      213: -2314025848614694659
+    second: Player_styling_32
+  - first:
+      213: 4093520251266912996
+    second: Player_styling_33
+  - first:
+      213: 2023933055605438025
+    second: Player_styling_34
+  - first:
+      213: -5396134359825936460
+    second: Player_styling_35
+  - first:
+      213: -8473714249219937552
+    second: Player_styling_36
+  - first:
+      213: -7439003234791615860
+    second: Player_styling_37
+  - first:
+      213: 4566734978190759173
+    second: Player_styling_38
+  - first:
+      213: -838333422547701742
+    second: Player_styling_39
+  - first:
+      213: 7232277518606895659
+    second: Player_styling_40
+  - first:
+      213: 1909831594787500415
+    second: Player_styling_41
+  - first:
+      213: 8305081793089619418
+    second: Player_styling_42
+  - first:
+      213: -6058263828580999722
+    second: Player_styling_43
+  - first:
+      213: 6217627934495272871
+    second: Player_styling_44
+  - first:
+      213: 1670122036495904173
+    second: Player_styling_45
+  - first:
+      213: -9004424904924415706
+    second: Player_styling_46
+  - first:
+      213: 3884475181312654201
+    second: Player_styling_47
+  - first:
+      213: -5976452230110049555
+    second: Player_styling_48
+  - first:
+      213: 1034566944225888722
+    second: Player_styling_49
+  - first:
+      213: 4531673304417888484
+    second: Player_styling_50
+  - first:
+      213: 5144195826996788299
+    second: Player_styling_51
+  - first:
+      213: -1631678043229022888
+    second: Player_styling_52
+  - first:
+      213: 8373334942501593995
+    second: Player_styling_53
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player_styling_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b17b354d5fe54e0800000000000000
+      internalID: -1990883692964799653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_styling_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299247b047db38670800000000000000
+      internalID: 8539877624530610578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_styling_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e533eebf99fb89e0800000000000000
+      internalID: -1617925176611883544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_styling_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a4f44083d228470800000000000000
+      internalID: 8395322373985749632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_styling_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2052b0ab145d64d00800000000000000
+      internalID: 956686449133692162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_styling_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844698ff072d85c90800000000000000
+      internalID: -7180758223076891576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_styling_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a695c1eb158c121a0800000000000000
+      internalID: -6835962505964267158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_styling_7
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfc7130f7d2cd140800000000000000
+      internalID: 4745718130877648840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_styling_8
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595ae7f9adaa86660800000000000000
+      internalID: 7379335845402027413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

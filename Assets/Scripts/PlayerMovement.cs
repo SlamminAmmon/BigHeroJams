@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     private float moveForce = 5f;
 
-
+    private Animator animator;
 
     private void Awake() {
         //Get the rigidbody of player
@@ -30,6 +30,8 @@ public class PlayerMovement : MonoBehaviour
 
         playerCollider = GetComponent<BoxCollider2D>();
         initialG = gravity;
+
+        animator = GetComponent<Animator>();
     }
 
     private void Update() {
@@ -37,9 +39,10 @@ public class PlayerMovement : MonoBehaviour
         //Int that stors the the horizantal input
         //*******Unused in current itteration*******
         float horizontalInput = Input.GetAxis("Horizontal");
-        // player.velocity = new Vector2(speed, player.velocity.y);
+        player.velocity = new Vector2(speed, player.velocity.y);
 
-        MovePlayer();
+        //MovePlayer();
+        //AnimatePlayer();
 
         //flips the player sprite to appear backward
         //*******Unused in current itteration*******
@@ -57,8 +60,10 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.Space) && jCount==0) {
             downCount = 0;
             player.velocity = new Vector2(player.velocity.x , gravity);
+            // player.AddForce(new Vector3(0f, 4f), ForceMode2D.Impulse);
             jCount++;
             sideWalkCollider.isTrigger = false;
+            // animator.SetBool("isJump", true);
         }
 
         //Allow the player to drop down to bike lane
@@ -76,6 +81,7 @@ public class PlayerMovement : MonoBehaviour
             jCount = 0;
             sideWalkCollider = collision.gameObject.GetComponent<BoxCollider2D>();
             gravity = initialG;
+            //animator.SetBool("isJump", false);
         }
 
 
@@ -134,6 +140,22 @@ public class PlayerMovement : MonoBehaviour
     {
         movementX = Input.GetAxis("Horizontal");
         transform.position += new Vector3(movementX, 0f, 0f) * Time.deltaTime * speed;
+    }
+
+    void AnimatePlayer()
+    {
+        if (movementX > 0)
+        {
+            animator.SetBool("isSkate", true);
+        }
+        else if (movementX < 0)
+        {
+            animator.SetBool("isSkate", true);
+        }
+        else
+        {
+            animator.SetBool("isSkate", false);
+        }
     }
 
     private IEnumerator Fall() {
